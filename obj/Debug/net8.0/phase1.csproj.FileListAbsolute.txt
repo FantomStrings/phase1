@@ -1,0 +1,15 @@
+/Users/rick_adams/Documents/C#/phase1/bin/Debug/net8.0/phase1
+/Users/rick_adams/Documents/C#/phase1/bin/Debug/net8.0/phase1.deps.json
+/Users/rick_adams/Documents/C#/phase1/bin/Debug/net8.0/phase1.runtimeconfig.json
+/Users/rick_adams/Documents/C#/phase1/bin/Debug/net8.0/phase1.dll
+/Users/rick_adams/Documents/C#/phase1/bin/Debug/net8.0/phase1.pdb
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.AssemblyInfoInputs.cache
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.AssemblyInfo.cs
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.csproj.CoreCompileInputs.cache
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.sourcelink.json
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.dll
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/refint/phase1.dll
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.pdb
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/phase1.genruntimeconfig.cache
+/Users/rick_adams/Documents/C#/phase1/obj/Debug/net8.0/ref/phase1.dll
