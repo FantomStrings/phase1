@@ -3,7 +3,7 @@ namespace phase1;
 
 public class AreaCalculator()
 {
-    private const double Pi = Double.Pi;
+    private const double Pi = double.Pi;
     private double Height { get; }
     private double Width { get; }
     private double Radius { get; }
@@ -21,31 +21,25 @@ public class AreaCalculator()
 
     }
 
-    public double Triangle()
+    private double Triangle()
     {
         return (Height * Width) / 2;
     }
 
-    public double Ellipse()
+    private double Ellipse()
     {
         return Pi * Radius * Radius;
     }
 
     public double Operation(string op)
     {
-        double result = double.NaN;
-        switch (op)
+        var result = op switch
         {
-            case "R":
-                result = Rect();
-                break;
-            case "T":
-                result = Triangle();
-                break;
-            case "E":
-                result = Ellipse();
-                break;
-        }
+            "R" => Rect(),
+            "T" => Triangle(),
+            "E" => Ellipse(),
+            _ => double.NaN
+        };
         return result;
     }
 

@@ -1,19 +1,24 @@
 ﻿using System.Text.RegularExpressions;
 
+/*
+ * Crude driver program in Main.
+ */
+
 namespace phase1;
 
 class Application
 {
     private static void Main(string[] args)
     {
-        var introduction = @"--------Area Calculator-------------
-                                    Here are the available operation codes:
-                                            R = rectangle,
-                                            T = triangle,
-                                            E = ellipse.";
+        var introduction = @"#----------Area Calculator----------#
+                               List of available operation codes:
+                                        R = rectangle,
+                                        T = triangle,
+                                        E = ellipse.";
+        if (introduction == null) throw new ArgumentNullException(nameof(introduction));
         Console.WriteLine(introduction);
         Console.WriteLine("Enter your operation command.");
-        string? operation = Console.ReadLine().ToUpper();
+        string? operation = Console.ReadLine()?.ToUpper();
         Console.WriteLine("Enter the height:");
         double height = Convert.ToDouble(Console.ReadLine());
 
